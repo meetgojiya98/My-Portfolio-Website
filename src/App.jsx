@@ -5,6 +5,7 @@ import {
   UserOutlined,
   SettingOutlined,
   MailOutlined,
+  LinkedinOutlined,
 } from '@ant-design/icons';
 
 import Projects from './components/Projects';
@@ -43,7 +44,7 @@ export default function App({ darkMode = false, setDarkMode }) {
 
   return (
     <>
-      {/* Soft colored blurred blobs as background */}
+      {/* Blurred blobs */}
       <div className="bg-blob top-left"></div>
       <div className="bg-blob bottom-right"></div>
 
@@ -71,6 +72,7 @@ export default function App({ darkMode = false, setDarkMode }) {
           >
             Meet Gojiya
           </div>
+
           <Menu
             theme="dark"
             selectedKeys={[selectedKey]}
@@ -79,6 +81,32 @@ export default function App({ darkMode = false, setDarkMode }) {
             onClick={(e) => setSelectedKey(e.key)}
             style={{ fontWeight: 600, fontSize: 16 }}
           />
+
+          {/* LinkedIn Icon in Sidebar */}
+          <div
+            style={{
+              textAlign: 'center',
+              padding: collapsed ? '10px' : '12px',
+              fontSize: 22,
+              marginTop: '1rem',
+            }}
+          >
+            <a
+              href="https://www.linkedin.com/in/meet-gojiya/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: '#0a66c2',
+                transition: 'transform 0.2s ease-in-out',
+                display: 'inline-block',
+              }}
+              onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.2)')}
+              onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
+              title="LinkedIn"
+            >
+              <LinkedinOutlined />
+            </a>
+          </div>
         </Sider>
 
         <Layout style={{ zIndex: 10 }}>
@@ -121,6 +149,29 @@ export default function App({ darkMode = false, setDarkMode }) {
           </Footer>
         </Layout>
       </Layout>
+
+      {/* Floating LinkedIn Icon on Mobile */}
+      <a
+        href="https://www.linkedin.com/in/meet-gojiya/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          position: 'fixed',
+          bottom: '20px',
+          right: '20px',
+          fontSize: '24px',
+          color: '#0a66c2',
+          background: '#fff',
+          borderRadius: '50%',
+          padding: '10px',
+          boxShadow: '0 4px 10px rgba(0,0,0,0.2)',
+          zIndex: 1000,
+          display: 'none',
+        }}
+        className="mobile-linkedin"
+      >
+        <LinkedinOutlined />
+      </a>
     </>
   );
 }

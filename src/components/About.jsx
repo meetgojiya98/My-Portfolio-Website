@@ -226,7 +226,7 @@ export default function About({ darkMode }) {
         style={{
           borderRadius: 12,
           padding: "1.5rem 2rem",
-          backgroundColor: darkMode ? "#1e1e1e" : "#f5f5f5", // ← EXACT like old style
+          backgroundColor: darkMode ? "#1e1e1e" : "#f5f5f5",
           boxShadow: darkMode
             ? "0 4px 12px rgba(0,0,0,0.6)"
             : "0 4px 12px rgba(0,0,0,0.1)",
@@ -238,7 +238,7 @@ export default function About({ darkMode }) {
         <div style={{ display: "flex", alignItems: "center", marginBottom: 16 }}>
           <Avatar
             size={72}
-            src="https://avatars.githubusercontent.com/u/meetgojiya98"
+            src="https://raw.githubusercontent.com/meetgojiya98/My-Portfolio-Website/main/IMG_3914.jpg"
             alt="Meet Gojiya"
             style={{
               marginRight: 20,
@@ -259,7 +259,7 @@ export default function About({ darkMode }) {
         </div>
 
         <Paragraph style={{ fontSize: 15, lineHeight: 1.7 }}>
-          Meet Gojiya is a <strong>Solution Analyst</strong> on the Product Engineering and Development
+          Meet Gojiya is a Solution Analyst on the Product Engineering and Development
           team at Deloitte Canada. He bridges business with technology to extract insights from complex
           data and build scalable, data-driven solutions.
         </Paragraph>

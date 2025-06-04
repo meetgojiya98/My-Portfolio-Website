@@ -34,3 +34,9 @@
   right: -100px;
   background: #0099ff;
 }
+
+@media (max-width: 768px) {
+  .mobile-linkedin {
+    display: block !important;
+  }
+}

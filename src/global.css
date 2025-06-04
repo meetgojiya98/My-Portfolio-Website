@@ -42,3 +42,9 @@ body {
     background: #0099ff;
   }
   
+  @media (max-width: 768px) {
+    .mobile-linkedin {
+      display: block !important;
+    }
+  }
+  
