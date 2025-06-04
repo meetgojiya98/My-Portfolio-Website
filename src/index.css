@@ -1,0 +1,36 @@
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #ff6f61;
+  border-radius: 10px;
+}
+
+/* src/index.css or src/App.css */
+.bg-blob {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  filter: blur(150px);
+  opacity: 0.4;
+  border-radius: 50%;
+  z-index: 0;
+  pointer-events: none;
+  transition: background 0.3s ease;
+}
+
+.bg-blob.top-left {
+  top: -100px;
+  left: -100px;
+  background: #ff0057;
+}
+
+.bg-blob.bottom-right {
+  bottom: -100px;
+  right: -100px;
+  background: #0099ff;
+}
