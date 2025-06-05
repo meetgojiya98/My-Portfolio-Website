@@ -18,7 +18,9 @@ const skills = [
   { name: 'REST APIs', level: 80 },
   { name: 'Pandas & NumPy', level: 85 },
   { name: 'Selenium', level: 80 },
-  { name: 'AWS', level: 70 }
+  { name: 'AWS', level: 70 },
+  { name: 'Java', level: 80 },
+  { name: 'TypeScript', level: 80 }
   // Add more skills here if you want to test scrolling
 ];
 
