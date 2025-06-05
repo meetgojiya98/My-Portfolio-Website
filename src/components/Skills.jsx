@@ -51,7 +51,7 @@ export default function Skills({ darkMode }) {
           backdropFilter: 'blur(16px)',
           borderRadius: 20,
           padding: 40,
-          maxHeight: '700px',      // <-- limit height for scrolling
+          maxHeight: '600px',      // <-- limit height for scrolling
           overflowY: 'auto',      // <-- enable vertical scroll if content too long
         }}
       >
