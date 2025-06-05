@@ -11,11 +11,11 @@ const projects = [
     liveDemo: 'https://rag-stock-copilot.vercel.app/',
   },
   {
-    title: 'Job Agent',
+    title: 'Stock Sentiment Dashboard',
     description:
-      'A job search assistant web app with AI chat integration, authentication, mood tracking, and analytics dashboard.',
-    github: 'https://github.com/meetgojiya98/job-agent',
-    liveDemo: 'https://job-agent.vercel.app/',
+      'The app provides a real-time dashboard displaying stock market sentiment, trending stocks, latest news, and Reddit posts to help users track market mood and insights.',
+    github: 'https://github.com/meetgojiya98/Stock-Sentiment-Dashboard',
+    liveDemo: 'https://meetgojiya98.github.io/stock-sentiment-frontend/',
   },
 ];
 
