@@ -12,7 +12,13 @@ const skills = [
   { name: 'Ant Design', level: 80 },
   { name: 'Python & FastAPI', level: 70 },
   { name: 'OpenAI & AI Integration', level: 65 },
+  { name: 'HTML5 & CSS3', level: 80 },
   { name: 'Git & CI/CD', level: 85 },
+  { name: 'Postman & Jira', level: 80 },
+  { name: 'REST APIs', level: 80 },
+  { name: 'Pandas & NumPy', level: 85 },
+  { name: 'Selenium', level: 80 },
+  { name: 'AWS', level: 70 }
   // Add more skills here if you want to test scrolling
 ];
 
