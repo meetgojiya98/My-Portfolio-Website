@@ -8,7 +8,7 @@ const projects = [
     description:
       'End-to-end React and FastAPI app that delivers stock data, news, and AI insights for smarter investment decisions.',
     github: 'https://github.com/meetgojiya98/rag-stock-copilot',
-    liveDemo: 'https://rag-stock-copilot.vercel.app/',
+    liveDemo: 'https://stock-market-copilot.vercel.app/',
   },
   {
     title: 'Stock Sentiment Dashboard',
